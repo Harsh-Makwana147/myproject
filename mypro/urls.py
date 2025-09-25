@@ -19,7 +19,7 @@ from django.urls import path,include
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-     path("ultaedit/",include("firstapp.urls")),
+     path("",include("firstapp.urls")),
   
 
 
