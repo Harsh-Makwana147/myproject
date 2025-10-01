@@ -15,7 +15,8 @@ def home(request):
     return render(request,"home.html")
 
 def test(request:HttpRequest):
-    data = models.MyModel.objects.all()
+    data = models.Role.objects.all()
     admin_role=models.Role()
     admin_role.name="admin"
     admin_role.save()
+    return HttpResponse("Role created successfully!")
