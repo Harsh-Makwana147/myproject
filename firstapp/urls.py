@@ -7,5 +7,6 @@ path('signup/',views.signup),
 path('home/',views.home),
 path('test/',views.test),
 path('print/',views.print),
-path('del/',views.dele)
+path('del/',views.dele),
+# path('new/',views.new)
 ]

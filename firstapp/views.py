@@ -32,3 +32,13 @@ def dele(request:HttpRequest):
     ans.delete()
     return HttpResponse("delete succesfully")
 
+# def new(request:HttpRequest):
+#     if request.method == "POST":
+#         value = request.POST.get('email', 'password')
+#         value1 = request.POST.get('password', 'password')
+#     else:
+#         value = 'No data received'
+    
+#     return render(request, "new.html", {"data": value, "value1": value1})
+
+   
